@@ -384,17 +384,21 @@ footer {
     }
     
     nav ul {
-        flex-wrap: wrap;
-        justify-content: left;
+        display: flex;
+        justify-content: flex;
+        margin: 0;
     }
     
     nav ul li {
         margin-right: 0.5rem;
         margin-bottom: 0.5rem;
+        position: relative;
     }
     
     .colored-text {
+        font-weight: 600;
         font-size: 0.9rem;
+        transition: color 0.2s ease;
     }
     
     /* Home section adjustments */
