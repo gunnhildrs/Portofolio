@@ -82,7 +82,7 @@ nav ul li a:hover {
     flex: 50;
     background-color: #f6cfb0;    
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
@@ -410,12 +410,11 @@ footer {
     .home {
         flex-direction: column;
         height: auto;
-        padding-top: 60px; /* Space for fixed header */
     }
     
     .home-left, .home-right {
         flex: none;
-        width: 100%;
+        width: 80%;
     }
     
     .home-left {
